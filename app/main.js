@@ -14,7 +14,7 @@ import App from './Apptest';
 //第二个参数表示组件挂载哪里
 render (
     <div>
-        <App />
+        <App 1/>
     </div>
     ,document.getElementById('app-container')
 )
