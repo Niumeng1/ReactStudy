@@ -13,5 +13,8 @@ import App from './Apptest';
 //第一个参数是jsx语法
 //第二个参数表示组件挂载哪里
 render (
-    <App />,document.getElementById('app-container')
+    <div>
+        <App />
+    </div>
+    ,document.getElementById('app-container')
 )
